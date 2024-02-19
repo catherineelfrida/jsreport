@@ -1,0 +1,126 @@
+<!--
+Invoice dynamically rendered into html using handlebars and converted into pdf
+using chrome-pdf recipe. The styles are extracted into separate asset for
+better readability and later reuse.
+
+Data to this sample are mocked at the design time and should be filled on the
+incoming API request.
+!-->
+
+<!--
+Invoice dynamically rendered into html using handlebars and converted into pdf
+using chrome-pdf recipe. The styles are extracted into separate asset for
+better readability and later reuse.
+
+Data to this sample are mocked at the design time and should be filled on the
+incoming API request.
+!-->
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {{asset "invoice-styles.css" "utf8"}}
+        </style>
+    </head>
+    <body>
+        <div class="invoice-box">
+            <table cellpadding="0" cellspacing="0">
+                <tr class="top">
+                    <td colspan="8">
+                        <table>
+                            <tr>
+                                <td class="title">
+                                    <h6>LAPORAN PENJUALAN</h6>
+                                </td>
+                                <td>
+                                    Created: {{nowLocalStr}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="information">
+                    <td colspan="8">
+                        <table>
+                            <tr>
+                                <td>
+                                    {{seller.name}}<br>
+                                    {{seller.road}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="heading">
+                    <td>
+                        Tgl Terima
+                    </td>
+                    <td>
+                        Tgl Ambil
+                    </td>
+                    <td>
+                        Pelanggan
+                    </td>
+                    <td>
+                        Code
+                    </td>
+                    <td>
+                        Qty
+                    </td>
+                    <td>
+                        Rate
+                    </td>
+                    <td>
+                        Status
+                    </td>
+                    <td>
+                        Price
+                    </td>
+                </tr>
+                {{#each items}}
+                <tr class="item">
+                    <td>
+                        {{start_date}}
+                    </td>
+                    <td>
+                        {{end_date}}
+                    </td>
+                    <td>
+                        {{buyer}}
+                    </td>
+                    <td colspan="3">
+                        <table>
+                            {{#each service}}
+                            <tr class="service">
+                                <td>
+                                    {{code}}
+                                </td>
+                                <td>
+                                    {{qty}}
+                                </td>
+                                <td>
+                                    {{rate}}
+                                </td>
+                            </tr>
+                            {{/each}}
+                        </table>
+                    </td>
+                    <td>
+                        {{status}}
+                    </td>
+                    <td>
+                        Rp{{price}}
+                    </td>
+                </tr>
+                {{/each}}
+                <tr class="total">
+                    <td colspan="7"></td>
+                    <td>
+                        Total: Rp{{total items}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

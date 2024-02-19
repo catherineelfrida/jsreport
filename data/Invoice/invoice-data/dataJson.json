@@ -1,0 +1,283 @@
+{
+    "seller": {
+        "name": "KEENAN Laundry",
+        "road": "Jalan Lingkar Timur Udayana No.6",
+        "date": {
+            "start": "15/01/2024",
+            "end": "15/02/2024"
+        }
+    },
+    "items": [
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                },
+                {
+                "code": "EX0224",
+                "qty": 3,
+                "rate": 5000
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 25000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        },
+        {
+            "start_date": "15/02/2024",
+            "end_date": "15/02/2024",
+            "buyer": "Catherine",
+            "service": [
+                {
+                "code": "EX0124",
+                "qty": 20,
+                "rate": 500
+                }
+            ],
+            "status": "COMPLETED",
+            "price": 10000
+        }
+    ]
+}

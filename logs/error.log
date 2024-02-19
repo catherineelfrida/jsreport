@@ -1,0 +1,240 @@
+2024-02-16T07:44:21.748Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=q73nvg6pek27h6b, id=q73nvg6pek27h6b
+2024-02-16T07:44:21.755Z - error: Rendering request 1 finished with error in 987 ms rootId=q73nvg6pek27h6b, id=q73nvg6pek27h6b
+2024-02-16T07:45:56.257Z - error: Error when processing render request 2
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=ctv73xmastlawyf, id=ctv73xmastlawyf
+2024-02-16T07:45:56.262Z - error: Rendering request 2 finished with error in 749 ms rootId=ctv73xmastlawyf, id=ctv73xmastlawyf
+2024-02-16T11:39:42.364Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=m8inbq000jwjo38, id=m8inbq000jwjo38
+2024-02-16T11:39:42.370Z - error: Rendering request 1 finished with error in 1948 ms rootId=m8inbq000jwjo38, id=m8inbq000jwjo38
+2024-02-16T11:42:41.168Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=kzey2pdp9n15wmx, id=kzey2pdp9n15wmx
+2024-02-16T11:42:41.175Z - error: Rendering request 1 finished with error in 1604 ms rootId=kzey2pdp9n15wmx, id=kzey2pdp9n15wmx
+2024-02-16T11:45:40.160Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=mhfyds2u7x6ci3t, id=mhfyds2u7x6ci3t
+2024-02-16T11:45:40.168Z - error: Rendering request 1 finished with error in 1629 ms rootId=mhfyds2u7x6ci3t, id=mhfyds2u7x6ci3t
+2024-02-16T11:46:47.743Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=4inlsqe6elcsvno, id=4inlsqe6elcsvno
+2024-02-16T11:46:47.750Z - error: Rendering request 1 finished with error in 1698 ms rootId=4inlsqe6elcsvno, id=4inlsqe6elcsvno
+2024-02-16T12:20:49.038Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=lewuu94vqgswb0a, id=lewuu94vqgswb0a
+2024-02-16T12:20:49.043Z - error: Rendering request 1 finished with error in 1918 ms rootId=lewuu94vqgswb0a, id=lewuu94vqgswb0a
+2024-02-16T12:23:30.727Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=jqjq0rsle4sbitd, id=jqjq0rsle4sbitd
+2024-02-16T12:23:30.736Z - error: Rendering request 1 finished with error in 1971 ms rootId=jqjq0rsle4sbitd, id=jqjq0rsle4sbitd
+2024-02-16T12:27:30.353Z - error: Error when processing render request 2
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=ap6kqzodsjhgcel, id=ap6kqzodsjhgcel
+2024-02-16T12:27:30.360Z - error: Rendering request 2 finished with error in 1882 ms rootId=ap6kqzodsjhgcel, id=ap6kqzodsjhgcel
+2024-02-16T12:52:26.589Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 117.0.5938.149). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npm install`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\USER\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:298:27)
+  at ChromeLauncher.executablePath (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:191:25)
+  at ChromeLauncher.computeLaunchArguments (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:98:37)
+  at async ChromeLauncher.launch (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ProductLauncher.js:79:28)
+  at async createBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:98:26)
+  at async allocateBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:113:5)
+  at async getBrowser (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:73:20
+  at async invokeRender (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:94:5)
+  at async WorkerReporter._render (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:142:7)
+  at async D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:224:19
+  at async processAndResponse (D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=stt6b91a3w7fnnh, id=stt6b91a3w7fnnh
+2024-02-16T12:52:26.593Z - error: Rendering request 1 finished with error in 1196 ms rootId=stt6b91a3w7fnnh, id=stt6b91a3w7fnnh
