@@ -3093,3 +3093,83 @@ Error: Template must contains _id, name, shortid or content attribute
 2024-02-19T10:10:48.314Z - info: Starting rendering request 9 rootId=f456q4ohfl9nepb, id=f456q4ohfl9nepb
 2024-02-19T10:10:48.315Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=f456q4ohfl9nepb, id=f456q4ohfl9nepb
 2024-02-19T10:10:48.782Z - info: Rendering request 9 finished in 527 ms rootId=f456q4ohfl9nepb, id=f456q4ohfl9nepb
+2024-02-19T10:39:22.671Z - info: Initializing jsreport (version: 4.2.0, configuration file: jsreport.config.json, nodejs: 20.10.0)
+2024-02-19T10:39:22.677Z - info: Searching for available extensions in D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\
+2024-02-19T10:39:22.687Z - info: Extensions location cache contains up to date information, skipping crawling in D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\
+2024-02-19T10:39:22.781Z - info: Found 35 extension(s)
+2024-02-19T10:39:23.550Z - info: Using extension base@4.0.0
+2024-02-19T10:39:23.557Z - info: Using extension child-templates@4.0.0
+2024-02-19T10:39:23.561Z - info: Using extension cli@4.0.2
+2024-02-19T10:39:23.566Z - info: Using extension components@4.0.0
+2024-02-19T10:39:23.568Z - info: Using extension data@4.0.0
+2024-02-19T10:39:23.570Z - info: Using extension express@4.0.1
+2024-02-19T10:39:24.415Z - info: Using extension freeze@4.0.0
+2024-02-19T10:39:24.419Z - info: Using extension fs-store@4.0.1
+2024-02-19T10:39:24.706Z - info: Using extension handlebars@4.0.1
+2024-02-19T10:39:24.710Z - info: Using extension import-export@4.0.2
+2024-02-19T10:39:24.743Z - info: Using extension jsrender@4.0.0
+2024-02-19T10:39:24.745Z - info: Using extension licensing@4.0.1
+2024-02-19T10:39:24.808Z - info: Using extension localization@4.0.1
+2024-02-19T10:39:24.810Z - info: Using extension npm@4.0.0
+2024-02-19T10:39:24.816Z - info: Using extension pdf-utils@4.0.2
+2024-02-19T10:39:24.823Z - info: Using extension reports@4.0.0
+2024-02-19T10:39:24.838Z - info: Using extension tags@4.0.1
+2024-02-19T10:39:24.844Z - info: Using extension text@4.0.0
+2024-02-19T10:39:24.846Z - info: Using extension version-control@4.0.0
+2024-02-19T10:39:24.876Z - info: Using extension assets@4.0.2
+2024-02-19T10:39:24.937Z - info: Using extension authorization@4.0.0
+2024-02-19T10:39:24.948Z - info: Using extension browser-client@4.0.0
+2024-02-19T10:39:24.955Z - info: Using extension chrome-pdf@4.0.0
+2024-02-19T10:39:24.963Z - info: Using extension docx@4.1.1
+2024-02-19T10:39:24.967Z - info: Using extension html-to-xlsx@4.0.1
+2024-02-19T10:39:26.381Z - info: html-to-xlsx detected chrome as available html engine
+2024-02-19T10:39:26.382Z - info: Using extension pptx@4.1.0
+2024-02-19T10:39:26.386Z - info: Using extension scheduling@4.0.0
+2024-02-19T10:39:26.459Z - info: Using extension scripts@4.0.0
+2024-02-19T10:39:26.461Z - info: Using extension static-pdf@4.0.0
+2024-02-19T10:39:26.463Z - info: Using extension studio@4.0.2
+2024-02-19T10:39:26.730Z - info: Using extension xlsx@4.0.2
+2024-02-19T10:39:26.734Z - info: Using extension public-templates@4.0.0
+2024-02-19T10:39:26.738Z - info: Using extension sample-template@4.0.0
+2024-02-19T10:39:26.743Z - info: Using extension studio-theme-dark@4.0.0
+2024-02-19T10:39:26.747Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-02-19T10:39:26.748Z - info: Using fs provider for template store.
+2024-02-19T10:39:26.758Z - info: fs store is persisting using fs for D:\tin\skripsi\Bahan-Project-Laundry-App\backend\report\jsreportapp\data
+2024-02-19T10:39:26.781Z - info: fs store is loading data
+2024-02-19T10:39:26.839Z - info: fs store is initialized successfully
+2024-02-19T10:39:26.866Z - info: Creating default express app.
+2024-02-19T10:39:26.933Z - info: jsreport server successfully started on http port: 5488
+2024-02-19T10:39:26.935Z - info: Verifying license key free
+2024-02-19T10:39:26.936Z - info: Using free license
+2024-02-19T10:39:26.946Z - info: Initializing worker threads
+2024-02-19T10:39:29.827Z - info: 2 worker threads initialized in 2880ms
+2024-02-19T10:39:29.828Z - info: Starting temp files cleanup with 180000ms threshold
+2024-02-19T10:39:29.832Z - info: reporter initialized
+2024-02-19T10:40:25.853Z - info: Render request 1 queued for execution and waiting for available worker rootId=w9tdm3mf76o1jtg, id=w9tdm3mf76o1jtg
+2024-02-19T10:40:26.057Z - info: Starting rendering request 1 rootId=w9tdm3mf76o1jtg, id=w9tdm3mf76o1jtg
+2024-02-19T10:40:26.058Z - info: Rendering template { name: report, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=w9tdm3mf76o1jtg, id=w9tdm3mf76o1jtg
+2024-02-19T10:40:28.639Z - info: Rendering request 1 finished in 2788 ms rootId=w9tdm3mf76o1jtg, id=w9tdm3mf76o1jtg
+2024-02-19T10:40:54.010Z - info: Render request 2 queued for execution and waiting for available worker rootId=d954wlax0kgff7h, id=d954wlax0kgff7h
+2024-02-19T10:40:54.169Z - info: Starting rendering request 2 rootId=d954wlax0kgff7h, id=d954wlax0kgff7h
+2024-02-19T10:40:54.170Z - info: Rendering template { name: report, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=d954wlax0kgff7h, id=d954wlax0kgff7h
+2024-02-19T10:40:57.340Z - info: Rendering request 2 finished in 3331 ms rootId=d954wlax0kgff7h, id=d954wlax0kgff7h
+2024-02-19T10:44:49.580Z - info: Render request 3 queued for execution and waiting for available worker rootId=f0mzc98phptvfzk, id=f0mzc98phptvfzk
+2024-02-19T10:44:49.605Z - info: Starting rendering request 3 rootId=f0mzc98phptvfzk, id=f0mzc98phptvfzk
+2024-02-19T10:44:49.606Z - info: Rendering template { name: report, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=f0mzc98phptvfzk, id=f0mzc98phptvfzk
+2024-02-19T10:44:50.305Z - info: Rendering request 3 finished in 726 ms rootId=f0mzc98phptvfzk, id=f0mzc98phptvfzk
+2024-02-19T10:45:43.436Z - info: Render request 4 queued for execution and waiting for available worker rootId=a0j9w80f6eki4dv, id=a0j9w80f6eki4dv
+2024-02-19T10:45:43.458Z - info: Starting rendering request 4 rootId=a0j9w80f6eki4dv, id=a0j9w80f6eki4dv
+2024-02-19T10:45:43.459Z - info: Rendering template { name: report, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=a0j9w80f6eki4dv, id=a0j9w80f6eki4dv
+2024-02-19T10:45:43.884Z - info: Rendering request 4 finished in 449 ms rootId=a0j9w80f6eki4dv, id=a0j9w80f6eki4dv
+2024-02-19T10:47:25.464Z - info: Render request 5 queued for execution and waiting for available worker rootId=ypq1ukgbnn22d0q, id=ypq1ukgbnn22d0q
+2024-02-19T10:47:25.484Z - info: Starting rendering request 5 rootId=ypq1ukgbnn22d0q, id=ypq1ukgbnn22d0q
+2024-02-19T10:47:25.485Z - info: Rendering template { name: report, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ypq1ukgbnn22d0q, id=ypq1ukgbnn22d0q
+2024-02-19T10:47:25.872Z - info: Rendering request 5 finished in 410 ms rootId=ypq1ukgbnn22d0q, id=ypq1ukgbnn22d0q
+2024-02-19T10:47:40.320Z - info: Render request 6 queued for execution and waiting for available worker rootId=vgxglgunwjlrz5p, id=vgxglgunwjlrz5p
+2024-02-19T10:47:40.339Z - info: Starting rendering request 6 rootId=vgxglgunwjlrz5p, id=vgxglgunwjlrz5p
+2024-02-19T10:47:40.340Z - info: Rendering template { name: report, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=vgxglgunwjlrz5p, id=vgxglgunwjlrz5p
+2024-02-19T10:47:40.770Z - info: Rendering request 6 finished in 450 ms rootId=vgxglgunwjlrz5p, id=vgxglgunwjlrz5p
+2024-02-19T10:48:50.444Z - info: Render request 7 queued for execution and waiting for available worker rootId=qdn5ycez0ntcd0w, id=qdn5ycez0ntcd0w
+2024-02-19T10:48:50.466Z - info: Starting rendering request 7 rootId=qdn5ycez0ntcd0w, id=qdn5ycez0ntcd0w
+2024-02-19T10:48:50.467Z - info: Rendering template { name: report, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=qdn5ycez0ntcd0w, id=qdn5ycez0ntcd0w
+2024-02-19T10:48:50.987Z - info: Rendering request 7 finished in 543 ms rootId=qdn5ycez0ntcd0w, id=qdn5ycez0ntcd0w

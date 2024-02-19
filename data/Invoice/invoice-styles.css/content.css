@@ -45,6 +45,10 @@
     background: #eee;
     border-bottom: 1px solid #ddd;
     font-weight: bold;
+    text-align: center;
+}
+.invoice-box table tr.heading td:nth-child(8){
+    text-align: right;
 }
 .invoice-box table tr.details td {
     padding-bottom: 20px;
